@@ -25,7 +25,7 @@ function run() {
 
                 let link = document.createElement('a')
                 link.classList = "btn btn-outline-danger";
-                link.href = pokemon.url
+                link.href = "https://wikipedia.org/wiki/"+pokemon.name;
                 link.innerText = "More info"
                 
                 card.appendChild(title);
